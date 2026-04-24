@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recetas Inclusivas API</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="bg-light">
+  <header class="bg-success text-white py-4 mb-4">
+    <div class="container">
+      <h1 class="mb-1">Recetas Inclusivas API</h1>
+      <p class="mb-0">API REST con Express, MongoDB, bcrypt y JSON Web Token.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card shadow-sm mb-4">
+      <div class="card-body">
+        <h2 class="h4">Información de la API</h2>
+        <p>
+          Esta API permite registrar usuarios, iniciar sesión, proteger rutas con JWT
+          y gestionar recetas pensadas para personas con restricciones alimentarias.
+        </p>
+      </div>
+    </section>
+
+    <section class="card shadow-sm">
+      <div class="card-body">
+        <h2 class="h4">Endpoints principales</h2>
+        <ul>
+          <li><strong>POST</strong> /api/users/register</li>
+          <li><strong>POST</strong> /api/users/login</li>
+          <li><strong>GET</strong> /api/users</li>
+          <li><strong>GET</strong> /api/recipes</li>
+          <li><strong>GET</strong> /api/recipes/:id</li>
+          <li><strong>POST</strong> /api/recipes</li>
+          <li><strong>GET</strong> /api/reviews</li>
+          <li><strong>POST</strong> /api/reviews</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

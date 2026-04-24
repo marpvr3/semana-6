@@ -1,0 +1,22 @@
+{
+  "name": "actividad-06-base-de-datos",
+  "version": "1.0.0",
+  "description": "API REST con Express, MongoDB, autenticación JWT y estructura por modelos, controladores y rutas.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["express", "mongodb", "mongoose", "jwt", "bcrypt"],
+  "author": "Equipo DWM4AP",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "chalk": "^5.6.2",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.4.1"
+  }
+}
