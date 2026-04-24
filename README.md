@@ -30,3 +30,4 @@ npm install
 ## Integrantes
 
 - Maria Paula Valbuena Romero 
+- Lucia Testa
